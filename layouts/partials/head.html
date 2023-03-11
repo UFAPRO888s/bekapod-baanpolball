@@ -1,0 +1,73 @@
+<title>
+  {{ if .IsHome }}
+    {{ .Site.Title }}
+  {{ else if .IsSection }}
+    {{ with .Params.linkTitle }}{{ . }} –{{ end }}
+    {{ .Site.Title }}
+  {{ else }}
+    {{ with .Title }}{{ . }} –{{ end }}
+    {{ .Site.Title }}
+  {{ end }}
+</title>
+
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+{{ if .IsHome }}
+  <meta name="description" content="{{ .Site.Params.description }}" />
+{{ else if .IsSection }}
+  <meta name="description" content="{{ .Params.summary }}" />
+{{ else }}
+  <meta name="description" content="{{ .Params.summary }}" />
+{{ end }}
+
+
+<link rel="manifest" href="/site.webmanifest" />
+<link rel="canonical" href="{{ .Permalink }}" />
+
+{{ $styles := resources.Get "/css/dist/base.css" }}
+{{ if .Site.IsServer }}
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
+{{ else }}
+  {{ $styles := $styles | minify }}
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
+{{ end }}
+
+{{ $styles := resources.Get "/css/syntax.css" }}
+{{ if .Site.IsServer }}
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
+{{ else }}
+  {{ $styles := $styles | minify }}
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
+{{ end }}
+
+
+<link rel="stylesheet" href="https://use.typekit.net/yut6utw.css" />
+
+{{ if not .Site.IsServer }}
+  {{/*  <script
+    async
+    defer
+    data-website-id="23132b54-0cf6-44ef-bf6f-72bbe3c263bc"
+    src="https://umami-production-76f1.up.railway.app/umami.js"
+  ></script>  */}}
+{{ end }}
+
+
+<script
+  defer
+  src="https://unpkg.com/@alpinejs/focus@3.11.1/dist/cdn.min.js"
+></script>
+
+{{ $scripts := resources.Get "/js/app.js" }}
+{{ if .Site.IsServer }}
+  <script defer src="{{ $scripts.RelPermalink }}"></script>
+{{ else }}
+  {{ $scripts := $scripts | minify }}
+  <script defer src="{{ $scripts.RelPermalink }}"></script>
+{{ end }}
+
+
+<script defer src="https://unpkg.com/alpinejs@3.11.1/dist/cdn.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>

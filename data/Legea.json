@@ -1,0 +1,472 @@
+[
+    {
+      "title": "Premier League",
+      "id": 47,
+      "slug": "premier-league"
+    },
+    {
+      "title": "Champions League",
+      "id": 42,
+      "slug": "champions-league"
+    },
+    {
+      "title": "LaLiga",
+      "id": 87,
+      "slug": "laliga"
+    },
+    {
+      "title": "Bundesliga",
+      "id": 54,
+      "slug": "bundesliga"
+    },
+    {
+      "title": "Serie A",
+      "id": 55,
+      "slug": "serie-a"
+    },
+    {
+      "title": "World Cup",
+      "id": 77,
+      "slug": "world-cup"
+    },
+    {
+      "title": "Europa League",
+      "id": 73,
+      "slug": "europa-league"
+    },
+    {
+      "title": "Ligue 1",
+      "id": 53,
+      "slug": "ligue-1"
+    },
+    {
+      "title": "FA Cup",
+      "id": 132,
+      "slug": "fa-cup"
+    },
+    {
+      "title": "EURO",
+      "id": 50,
+      "slug": "euro"
+    },
+    {
+      "title": "Champions League",
+      "id": 42,
+      "slug": "champions-league"
+    },
+    {
+      "title": "Europa League",
+      "id": 73,
+      "slug": "europa-league"
+    },
+    {
+      "title": "AFC Champions League",
+      "id": 525,
+      "slug": "afc-champions-league"
+    },
+    {
+      "title": "AFC Cup",
+      "id": 9469,
+      "slug": "afc-cup"
+    },
+    {
+      "title": "AFC U20 Asian Cup",
+      "id": 9841,
+      "slug": "afc-u20-asian-cup"
+    },
+    {
+      "title": "AFF Championship",
+      "id": 9265,
+      "slug": "aff-championship"
+    },
+    {
+      "title": "Africa Cup of Nations Qualification",
+      "id": 289,
+      "slug": "africa-cup-of-nations-qualification"
+    },
+    {
+      "title": "African Nations Championship",
+      "id": 9428,
+      "slug": "african-nations-championship"
+    },
+    {
+      "title": "Algarve Cup (W)",
+      "id": 9579,
+      "slug": "algarve-cup-w)"
+    },
+    {
+      "title": "Asian Cup Qualification",
+      "id": 290,
+      "slug": "asian-cup-qualification"
+    },
+    {
+      "title": "CAF Champions League",
+      "id": 526,
+      "slug": "caf-champions-league"
+    },
+    {
+      "title": "CAF Confed Cup",
+      "id": 9468,
+      "slug": "caf-confed-cup"
+    },
+    {
+      "title": "CAF Super Cup",
+      "id": 9467,
+      "slug": "caf-super-cup"
+    },
+    {
+      "title": "Campeones Cup",
+      "id": 9875,
+      "slug": "campeones-cup"
+    },
+    {
+      "title": "CECAFA Cup",
+      "id": 9306,
+      "slug": "cecafa-cup"
+    },
+    {
+      "title": "Club Friendlies",
+      "id": 489,
+      "slug": "club-friendlies"
+    },
+    {
+      "title": "CONCACAF Champions League",
+      "id": 297,
+      "slug": "concacaf-champions-league"
+    },
+    {
+      "title": "CONCACAF Championship U20",
+      "id": 9656,
+      "slug": "concacaf-championship-u20"
+    },
+    {
+      "title": "CONCACAF Gold Cup",
+      "id": 298,
+      "slug": "concacaf-gold-cup"
+    },
+    {
+      "title": "CONCACAF League",
+      "id": 9682,
+      "slug": "concacaf-league"
+    },
+    {
+      "title": "CONCACAF Nations League",
+      "id": 9821,
+      "slug": "concacaf-nations-league"
+    },
+    {
+      "title": "CONMEBOL - UEFA Cup of Champions",
+      "id": 10304,
+      "slug": "conmebol-uefa-cup-of-champions"
+    },
+    {
+      "title": "Copa America",
+      "id": 44,
+      "slug": "copa-america"
+    },
+    {
+      "title": "Copa Libertadores",
+      "id": 45,
+      "slug": "copa-libertadores"
+    },
+    {
+      "title": "Copa Sudamericana",
+      "id": 299,
+      "slug": "copa-sudamericana"
+    },
+    {
+      "title": "East Asian Championship",
+      "id": 300,
+      "slug": "east-asian-championship"
+    },
+    {
+      "title": "EURO",
+      "id": 50,
+      "slug": "euro"
+    },
+    {
+      "title": "EURO U19",
+      "id": 287,
+      "slug": "euro-u19"
+    },
+    {
+      "title": "EURO U21 Qualification",
+      "id": 288,
+      "slug": "euro-u21-qualification"
+    },
+    {
+      "title": "Europa Conference League",
+      "id": 10216,
+      "slug": "europa-conference-league"
+    },
+    {
+      "title": "European Championship U-17",
+      "id": 301,
+      "slug": "european-championship-u-17"
+    },
+    {
+      "title": "FIFA Arab Cup",
+      "id": 10242,
+      "slug": "fifa-arab-cup"
+    },
+    {
+      "title": "FIFA Club World Cup",
+      "id": 78,
+      "slug": "fifa-club-world-cup"
+    },
+    {
+      "title": "Friendlies",
+      "id": 114,
+      "slug": "friendlies"
+    },
+    {
+      "title": "Friendlies U-21",
+      "id": 344,
+      "slug": "friendlies-u-21"
+    },
+    {
+      "title": "Gulf Cup",
+      "id": 329,
+      "slug": "gulf-cup"
+    },
+    {
+      "title": "Leagues Cup",
+      "id": 10043,
+      "slug": "leagues-cup"
+    },
+    {
+      "title": "Recopa Sudamericana",
+      "id": 491,
+      "slug": "recopa-sudamericana"
+    },
+    {
+      "title": "SAFF Championship",
+      "id": 9876,
+      "slug": "saff-championship"
+    },
+    {
+      "title": "SheBelieves Cup (W)",
+      "id": 9921,
+      "slug": "shebelieves-cup-w)"
+    },
+    {
+      "title": "Sidemen Charity Match",
+      "id": 10312,
+      "slug": "sidemen-charity-match"
+    },
+    {
+      "title": "Southeast Asian Games",
+      "id": 9690,
+      "slug": "southeast-asian-games"
+    },
+    {
+      "title": "Summer Olympics",
+      "id": 66,
+      "slug": "summer-olympics"
+    },
+    {
+      "title": "Summer Olympics (Women)",
+      "id": 65,
+      "slug": "summer-olympics-women)"
+    },
+    {
+      "title": "The Atlantic Cup",
+      "id": 9514,
+      "slug": "the-atlantic-cup"
+    },
+    {
+      "title": "Toulon Tournament",
+      "id": 305,
+      "slug": "toulon-tournament"
+    },
+    {
+      "title": "UEFA Nations League A",
+      "id": 9806,
+      "slug": "uefa-nations-league-a"
+    },
+    {
+      "title": "UEFA Nations League B",
+      "id": 9807,
+      "slug": "uefa-nations-league-b"
+    },
+    {
+      "title": "UEFA Nations League C",
+      "id": 9808,
+      "slug": "uefa-nations-league-c"
+    },
+    {
+      "title": "UEFA Nations League D",
+      "id": 9809,
+      "slug": "uefa-nations-league-d"
+    },
+    {
+      "title": "UEFA Super Cup",
+      "id": 74,
+      "slug": "uefa-super-cup"
+    },
+    {
+      "title": "UEFA Women's EURO",
+      "id": 292,
+      "slug": "uefa-womens-euro"
+    },
+    {
+      "title": "UEFA Youth League",
+      "id": 9741,
+      "slug": "uefa-youth-league"
+    },
+    {
+      "title": "Womens Asian Cup",
+      "id": 10269,
+      "slug": "womens-asian-cup"
+    },
+    {
+      "title": "Women's Champions League",
+      "id": 9375,
+      "slug": "womens-champions-league"
+    },
+    {
+      "title": "Women's Friendlies",
+      "id": 293,
+      "slug": "womens-friendlies"
+    },
+    {
+      "title": "Women's World Cup",
+      "id": 76,
+      "slug": "womens-world-cup"
+    },
+    {
+      "title": "World Cup",
+      "id": 77,
+      "slug": "world-cup"
+    },
+    {
+      "title": "World Cup Qualification (W) CONCAFAF",
+      "id": 10358,
+      "slug": "world-cup-qualification-w)-concafaf"
+    },
+    {
+      "title": "World Cup Qualification (W) Inter-Confederation",
+      "id": 10359,
+      "slug": "world-cup-qualification-w)-inter-confederation"
+    },
+    {
+      "title": "World Cup Qualification (W) UEFA",
+      "id": 10357,
+      "slug": "world-cup-qualification-w)-uefa"
+    },
+    {
+      "title": "World Cup Qualification AFC",
+      "id": 10197,
+      "slug": "world-cup-qualification-afc"
+    },
+    {
+      "title": "World Cup Qualification CAF",
+      "id": 10196,
+      "slug": "world-cup-qualification-caf"
+    },
+    {
+      "title": "World Cup Qualification CONCACAF",
+      "id": 10198,
+      "slug": "world-cup-qualification-concacaf"
+    },
+    {
+      "title": "World Cup Qualification Inter-confederation",
+      "id": 10201,
+      "slug": "world-cup-qualification-inter-confederation"
+    },
+    {
+      "title": "World Cup Qualification OFC",
+      "id": 10200,
+      "slug": "world-cup-qualification-ofc"
+    },
+    {
+      "title": "World Cup Qualification UEFA",
+      "id": 10195,
+      "slug": "world-cup-qualification-uefa"
+    },
+    {
+      "title": "World Cup U17",
+      "id": 306,
+      "slug": "world-cup-u17"
+    },
+    {
+      "title": "World Cup U20",
+      "id": 296,
+      "slug": "world-cup-u20"
+    },
+    {
+      "title": "Super Cup",
+      "id": 10175,
+      "slug": "super-cup"
+    },
+    {
+      "title": "Superiore",
+      "id": 260,
+      "slug": "superiore"
+    },
+    {
+      "title": "Superiore Qualification",
+      "id": 9173,
+      "slug": "superiore-qualification"
+    },
+    {
+      "title": "J. League",
+      "id": 223,
+      "slug": "j-league"
+    },
+    {
+      "title": "J. League 2",
+      "id": 8974,
+      "slug": "j-league-2"
+    },
+    {
+      "title": "J. League 3",
+      "id": 9136,
+      "slug": "j-league-3"
+    },
+    {
+      "title": "J. League Qualification",
+      "id": 9915,
+      "slug": "j-league-qualification"
+    },
+    {
+      "title": "Cup",
+      "id": 9011,
+      "slug": "cup"
+    },
+    {
+      "title": "League Cup",
+      "id": 224,
+      "slug": "league-cup"
+    },
+    {
+      "title": "Super Cup",
+      "id": 440,
+      "slug": "super-cup"
+    },
+    {
+      "title": "Super Liga",
+      "id": 8985,
+      "slug": "super-liga"
+    },
+    {
+      "title": "National Division",
+      "id": 231,
+      "slug": "national-division"
+    },
+    {
+      "title": "Cup",
+      "id": 9530,
+      "slug": "cup"
+    },
+    {
+      "title": "National Division Qualification",
+      "id": 10065,
+      "slug": "national-division-qualification"
+    },
+    {
+      "title": "Super Cup",
+      "id": 9985,
+      "slug": "super-cup"
+    }
+  ]

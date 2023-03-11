@@ -1,0 +1,53 @@
+baseURL = 'https://baanpolballs.co/'
+languageCode = 'th-th'
+title = 'บ้านผลบอล สรุปผลบอล ผลบอลสด ทีเด็ดบอล ก่อนแข่งทุกวัน'
+
+enableRobotsTXT = true
+disableKinds = ['taxonomy', 'term']
+sectionPagesMenu = 'main'
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    noClasses = false
+    tabWidth = 4
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = true
+
+[Params]
+  description = "บ้านผลบอล สรุปผลบอล baanpolballs ผลบอลสด ทีเด็ดบอล ทรรศนะบอล ทีเด็ดบอลวันนี้ ดูผลบอลเมื่อคืน ไฮไลท์ฟุตบอลเมื่อคืน ดูบอลสดไม่กระตุก เว็บดูบอลสดที่เร็วที่สุด 2023"
+
+[Params.social]
+  github = 'https://github.com/baanpolballs'
+  linkedin = 'https://www.linkedin.com/in/baanpolballs/'
+  twitter = 'https://twitter.com/baanpolballs'
+
+[build]
+  writeStats = true
+
+[caches]
+  [caches.getjson]
+    maxAge = "10m"
+
+[server]
+[[server.headers]]
+  for = '/**'
+  [server.headers.values]
+    Content-Security-Policy = 'script-src localhost:1313'
+    Referrer-Policy = 'strict-origin-when-cross-origin'
+    X-Content-Type-Options = 'nosniff'
+    X-Frame-Options = 'DENY'
+    X-XSS-Protection = '1; mode=block'
+
+[[redirects]]
+    from   = "/**"
+    to     = "/404.html"
+    status = 404

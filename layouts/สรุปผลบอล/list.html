@@ -1,0 +1,93 @@
+{{ define "main" }}
+  <div class="section mt-16 sm:mt-32 font-['Kanit']">
+    <div class="outer-container">
+      <div class="container">
+        <div class="inner-container">
+          {{ .Render "header" }}
+          {{/*  <div class="flex flex-col gap-16">
+          {{ range first 10 (where .Site.RegularPages.ByPublishDate.Reverse "Type" "สรุปผลบอล") }}
+            <article class="card group">
+              <div
+                    class="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-slate-800/5 ring-1 ring-slate-900/5 dark:border dark:border-slate-700/50 dark:bg-slate-800 dark:ring-0"
+                  >
+                    <picture>
+                      <source srcset="https://images.fotmob.com/image_resources/logo/leaguelogo/{{ .Params.legeaID }}.png" type="image/png" />
+                      <img width="28"
+                      height="28" class="h-7 w-7 rounded-full"
+                      loading="lazy" src="https://images.fotmob.com/image_resources/logo/leaguelogo/{{ .Params.legeaID }}.png" alt="โลโก้ลีก {{ .Params.legeaName }} สรุปผลบอล บ้านผลบอล" title="{{ .Params.legeaName }}" onerror="if(this.src != 'error.jpg') this.src='https://www.loopyt.com/_next/image/?url=%2Fimages%2Fcasino%2FUFALOOPYT.png&w=1200&q=75';">
+                    </picture>
+                </div>
+              <h2 class="card-title">
+                <a class="card-link font-['Kanit']" href="{{ .Permalink }}">
+                  <span class="card-link-text">{{ .Title }}</span>
+                </a>
+              </h2>
+              <time class="card-eyebrow" datetime="{{ .PublishDate }}">
+                {{ .PublishDate | time.Format ":date_long" }}
+              </time>
+              <p class="card-description font-['Kanit']">{{ .Summary }}</p>
+              <div class="card-cta font-['Kanit']" aria-hidden="true">
+                {{ .Params.legeaName }}
+                <svg viewbox="0 0 16 16" fill="none" aria-hidden="true" class="card-cta-icon">
+                  <path d="M6.75 5.75 9.25 8l-2.5 2.25" strokeWidth="1.5" strokeLinecap="round"
+                    strokeLinejoin="round" />
+                </svg>
+              </div>
+            </article>
+            {{ end }}
+          </div>  */}}
+          <div
+            class="mt-16 sm:mt-20 md:border-l md:border-slate-100 md:pl-6 md:dark:border-slate-700/40"
+          >
+          <div class="w-full">
+            <ul class="mt-16 grid grid-cols-1 gap-x-12 gap-y-16 sm:mt-20 sm:grid-cols-2 lg:grid-cols-3">
+              {{ range $.Site.Data.Legea }}
+                <li class="flex gap-4">
+                  <div
+                    class="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-slate-800/5 ring-1 ring-slate-900/5 dark:border dark:border-slate-700/50 dark:bg-slate-800 dark:ring-0"
+                  >
+                    <picture>
+                      <source srcset="https://images.fotmob.com/image_resources/logo/leaguelogo/{{ .id }}.png" type="image/png" />
+                      <img width="28" height="28" class="h-7 w-7 rounded-full" loading="lazy" src="https://images.fotmob.com/image_resources/logo/leaguelogo/{{ .id }}.png" alt="โลโก้ลีก {{ .title }} สรุปผลบอล บ้านผลบอล" title="{{ .title }}" onerror="if(this.src != 'error.jpg') this.src='https://www.loopyt.com/_next/image/?url=%2Fimages%2Fcasino%2FUFALOOPYT.png&w=1200&q=75';">
+                    </picture>
+                  </div>
+                  <dl class="flex flex-auto flex-wrap gap-x-2">
+                    <dt class="sr-only">league</dt>
+                    <a href="/สรุปผลบอล/{{ .slug }}/" title="สรุปผลบอล ลีก {{ .title }}" class="ml-2"><dd
+                      class="w-full flex-none text-sm font-medium text-slate-900 dark:text-slate-100"
+                    >
+                      {{ .title }}
+                    </dd></a>
+                    <dt class="sr-only">league slug</dt>
+                    <dd class="text-xs text-slate-500 dark:text-slate-400">
+                      {{ .slug }}
+                    </dd>
+                    <dt class="sr-only">Date</dt>
+                    <dd
+                      class="ml-auto text-xs text-slate-500 dark:text-slate-400"
+                      aria-label="2022 until Present"
+                    >
+                      <time datetime="2022">{{ .start }}</time>
+                      <span aria-hidden="true">—</span>
+                      <time datetime="2023">{{ .end }}</time>
+                    </dd>
+                  </dl>
+                </li>
+              {{ end }}
+            </ul>
+          </div>
+          
+          </div>
+          <div class="space-y-16">
+            <h3>ข้อมูล อัพเดท นักเตะยอดเยี่ยม สถานะนักเตะ ตลาดซื้อขายนักเตะ</h3>
+            <div class="flex max-w-xl flex-col space-y-16">
+              {{ range .Pages }}
+                {{ .Render "summary" }}
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}

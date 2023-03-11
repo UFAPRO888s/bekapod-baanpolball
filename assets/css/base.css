@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+
+@layer components {
+  .card {@apply relative flex flex-col items-start;}
+
+  .card-title {@apply font-accent text-xl font-normal tracking-tight text-slate-800 dark: text-slate-100;}
+
+  .card-title::before {@apply absolute -inset-y-6 -inset-x-4 z-0 scale-95 bg-pink-50 opacity-0 transition dark: bg-pink-900/30 sm:-inset-x-6 sm:rounded;content: '';}
+
+  .card-title:has(a)::before {@apply group-hover: scale-100 group-hover:opacity-100;}
+
+  .card-link::before {@apply absolute -inset-y-6 -inset-x-4 z-20 sm: -inset-x-6 sm:rounded-2xl;content: '';}
+
+  .card-link-text {@apply relative z-10;}
+
+  .card-description {@apply relative z-10 mt-2 text-sm text-slate-600 dark: text-slate-400;}
+
+  .card-cta {@apply relative z-10 mt-4 flex items-center text-sm font-medium text-pink-500;}
+
+  .card-cta-icon {@apply ml-1 h-4 w-4 stroke-current;}
+
+  .card-eyebrow {@apply relative z-10 order-first mb-3 text-sm font-semibold text-slate-600 underline decoration-slate-200 decoration-2 underline-offset-8 group-hover: decoration-pink-200 dark:text-slate-400 dark:decoration-slate-700 dark:group-hover:text-slate-300 dark:group-hover:decoration-pink-700/40;}
+}
+
+@tailwind utilities;
+
+@layer utilities {.outer-container {@apply mx-auto w-full max-w-7xl lg: px-8;}
+  .container {@apply px-4 sm: px-8 lg:px-12;}
+  .inner-container {@apply mx-auto max-w-2xl lg: max-w-5xl;}
+  .section {@apply sm: px-8;}
+}
+
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.bg-hhx {
+  background-image: url(/img/บ้านผลบอล-พื้นหลัง.webp);
+  border-style: solid;
+  border-color: red;
+  border-width: 0px 0px 5px 0px;
+}
+
+.bg-body {
+  background-image: url(/img/สรุปผลบอลทุกลีก.webp);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: repeat-y;
+}
+.bg-livepage{
+  background-image: url(/img/พื้นหลังเว็บแทงบอลสวยๆ.jpg);
+  background-position: center top;
+  background-size: cover;
+}
+
