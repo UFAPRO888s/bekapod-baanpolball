@@ -2,7 +2,7 @@ baseURL = 'https://baanpolballs.co/'
 languageCode = "en-us"
 timeZone = 'Asia/Bangkok'
 title = 'บ้านผลบอล สรุปผลบอล ผลบอลสด ทีเด็ดบอล ก่อนแข่งทุกวัน'
-
+LanguageCode='th'
 enableRobotsTXT = true
 
 sectionPagesMenu = 'main'
