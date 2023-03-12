@@ -9,11 +9,11 @@
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta name=description content>
 <link rel=manifest href=/site.webmanifest>
-<link rel=canonical href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/>
-<link rel=stylesheet href=/css/dist/base.min.css>
-<link rel=stylesheet href=/css/syntax.min.css>
+<link rel=canonical href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/>
+<link rel=stylesheet href=/$CF_PAGES_URL/css/dist/base.min.css>
+<link rel=stylesheet href=/$CF_PAGES_URL/css/syntax.min.css>
 <script defer src=https://unpkg.com/@alpinejs/focus@3.11.1/dist/cdn.min.js></script>
-<script defer src=/js/app.min.js></script>
+<script defer src=/$CF_PAGES_URL/js/app.min.js></script>
 <script defer src=https://unpkg.com/alpinejs@3.11.1/dist/cdn.min.js></script>
 <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js></script><body class="flex h-full dark:bg-body flex-col bg-slate-50 dark:bg-black/90">
 <div class="fixed inset-0 flex justify-center sm:px-8">
@@ -46,22 +46,22 @@
 <nav class=mt-6>
 <ul class="-my-2 divide-y divide-slate-100 text-base text-slate-800 dark:divide-slate-100/5 dark:text-slate-300">
 <li class=flex>
-<a class="block py-2" href=/>
+<a class="block py-2" href=$CF_PAGES_URL/>
 🏠หน้าหลัก
 </a>
 </li>
 <li class=flex>
-<a class="block py-2" href=/football-live/>
+<a class="block py-2" href=$CF_PAGES_URL/football-live/>
 ⚽ดูบอลสด
 </a>
 </li>
 <li class=flex>
-<a class="block py-2" href=/articles/>
+<a class="block py-2" href=$CF_PAGES_URL/articles/>
 💯ทรรศนะบอล
 </a>
 </li>
 <li class=flex>
-<a class="block py-2" href=/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/>
+<a class="block py-2" href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/>
 📣สรุปผลบอล
 </a>
 </li>
@@ -74,25 +74,25 @@
 <ul class="flex rounded bg-white/90 px-3 text-sm font-medium text-slate-800 shadow-lg shadow-slate-800/5 ring-1 ring-slate-900/5 backdrop-blur dark:bg-slate-800/90 dark:text-slate-200 dark:ring-white/10">
 <li class=w-60>
 <a class="hover:text-pink-500 dark:hover:text-pink-400
-relative block px-3 py-2 transition" href=/>
+relative block px-3 py-2 transition" href=$CF_PAGES_URL/>
 🏠หน้าหลัก
 </a>
 </li>
 <li class=w-60>
 <a class="hover:text-pink-500 dark:hover:text-pink-400
-relative block px-3 py-2 transition" href=/football-live/>
+relative block px-3 py-2 transition" href=$CF_PAGES_URL/football-live/>
 ⚽ดูบอลสด
 </a>
 </li>
 <li class=w-60>
 <a class="hover:text-pink-500 dark:hover:text-pink-400
-relative block px-3 py-2 transition" href=/articles/>
+relative block px-3 py-2 transition" href=$CF_PAGES_URL/articles/>
 💯ทรรศนะบอล
 </a>
 </li>
 <li class=w-60>
 <a class="text-pink-500 dark:text-pink-400
-relative block px-3 py-2 transition" href=/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/>
+relative block px-3 py-2 transition" href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/>
 📣สรุปผลบอล
 <span class="absolute inset-x-1 -bottom-px h-[2px] rounded bg-pink-500"></span>
 </a>
@@ -101,7 +101,7 @@ relative block px-3 py-2 transition" href=/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%
 </nav>
 </div>
 <div class="flex justify-end md:flex-0">
-<img alt="โลโก้ บ้านผลบอล" src=https://baanpolballs.co/images/tonightball-tw.png width=80 height=40 decoding=async class="h-10 w-50 object-contain text-center" loading=lazy>
+<img alt="โลโก้ บ้านผลบอล" src=$CF_PAGES_URLimages/tonightball-tw.png width=80 height=40 decoding=async class="h-10 w-50 object-contain text-center" loading=lazy>
 <button x-data type=button aria-label="Toggle dark mode" class="group rounded bg-white/90 px-3 py-2 shadow-lg shadow-slate-800/5 ring-1 ring-slate-900/5 backdrop-blur transition dark:bg-slate-800/90 dark:ring-white/10 dark:hover:ring-white/20" @click=$store.darkMode.toggle()><svg viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="h-6 w-6 fill-slate-100 stroke-slate-500 transition group-hover:fill-slate-200 group-hover:stroke-slate-700 dark:hidden [@media(prefers-color-scheme:dark)]:fill-pink-50 [@media(prefers-color-scheme:dark)]:stroke-pink-500 [@media(prefers-color-scheme:dark)]:group-hover:fill-pink-50 [@media(prefers-color-scheme:dark)]:group-hover:stroke-pink-600"><path d="M8 12.25A4.25 4.25.0 0112.25 8v0a4.25 4.25.0 014.25 4.25v0a4.25 4.25.0 01-4.25 4.25v0A4.25 4.25.0 018 12.25v0z"/><path d="M12.25 3v1.5m9.25 7.75H20m-1.209 6.541-1.06-1.06m1.06-12.022-1.06 1.06M12.25 20v1.5M4.5 12.25H3M6.77 6.77 5.709 5.709M6.77 17.73l-1.061 1.061" fill="none"/></svg><svg viewBox="0 0 24 24" aria-hidden="true" class="hidden h-6 w-6 fill-slate-700 stroke-slate-500 transition dark:block [@media(prefers-color-scheme:dark)]:group-hover:stroke-slate-400 [@media_not_(prefers-color-scheme:dark)]:fill-pink-400/10 [@media_not_(prefers-color-scheme:dark)]:stroke-pink-500"><path d="M17.25 16.22A6.937 6.937.0 017.78 6.75a7.451 7.451.0 109.47 9.47zM12.75 7C17 7 17 2.75 17 2.75S17 7 21.25 7C17 7 17 11.25 17 11.25S17 7 12.75 7z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
 </button>
 </div>
@@ -2390,7 +2390,7 @@ super-cup
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/afc-champions-league/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/afc-champions-league/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก AFC Champions League อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2413,7 +2413,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/afc-cup/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/afc-cup/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก AFC Cup อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2436,7 +2436,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/afc-u20-asian-cup/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/afc-u20-asian-cup/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก AFC U20 Asian Cup อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2459,7 +2459,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/aff-championship/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/aff-championship/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก AFF Championship อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2482,7 +2482,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/africa-cup-of-nations-qualification/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/africa-cup-of-nations-qualification/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Africa Cup of Nations Qualification อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2505,7 +2505,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/african-nations-championship/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/african-nations-championship/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก African Nations Championship อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2528,7 +2528,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/algarve-cup-w/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/algarve-cup-w/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Algarve Cup (W) อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2551,7 +2551,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/asian-cup-qualification/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/asian-cup-qualification/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Asian Cup Qualification อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2574,7 +2574,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/bundesliga/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/bundesliga/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Bundesliga อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2597,7 +2597,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/caf-champions-league/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/caf-champions-league/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก CAF Champions League อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2620,7 +2620,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/caf-confed-cup/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/caf-confed-cup/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก CAF Confed Cup อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2643,7 +2643,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/caf-super-cup/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/caf-super-cup/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก CAF Super Cup อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2666,7 +2666,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/campeones-cup/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/campeones-cup/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Campeones Cup อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2689,7 +2689,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/cecafa-cup/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/cecafa-cup/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก CECAFA Cup อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2712,7 +2712,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/champions-league/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/champions-league/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Champions League อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2735,7 +2735,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/club-friendlies/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/club-friendlies/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Club Friendlies อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2758,7 +2758,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/concacaf-champions-league/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/concacaf-champions-league/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก CONCACAF Champions League อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2781,7 +2781,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/concacaf-championship-u20/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/concacaf-championship-u20/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก CONCACAF Championship U20 อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2804,7 +2804,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/concacaf-gold-cup/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/concacaf-gold-cup/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก CONCACAF Gold Cup อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2827,7 +2827,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/concacaf-league/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/concacaf-league/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก CONCACAF League อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2850,7 +2850,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/concacaf-nations-league/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/concacaf-nations-league/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก CONCACAF Nations League อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2873,7 +2873,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/conmebol-uefa-cup-of-champions/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/conmebol-uefa-cup-of-champions/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก CONMEBOL - UEFA Cup of Champions อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2896,7 +2896,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/copa-america/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/copa-america/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Copa America อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2919,7 +2919,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/copa-libertadores/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/copa-libertadores/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Copa Libertadores อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2942,7 +2942,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/copa-sudamericana/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/copa-sudamericana/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Copa Sudamericana อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2965,7 +2965,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/cup/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/cup/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Cup อัพเดทล่าสุด 12/03/2023
 </span>
@@ -2988,7 +2988,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/east-asian-championship/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/east-asian-championship/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก East Asian Championship อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3011,7 +3011,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/euro-u19/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/euro-u19/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก EURO U19 อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3034,7 +3034,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/euro-u21-qualification/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/euro-u21-qualification/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก EURO U21 Qualification อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3057,7 +3057,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/euro/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/euro/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก EURO อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3080,7 +3080,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/europa-conference-league/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/europa-conference-league/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Europa Conference League อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3103,7 +3103,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/europa-league/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/europa-league/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Europa League อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3126,7 +3126,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/european-championship-u-17/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/european-championship-u-17/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก European Championship U-17 อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3149,7 +3149,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/fa-cup/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/fa-cup/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก FA Cup อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3172,7 +3172,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/fifa-arab-cup/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/fifa-arab-cup/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก FIFA Arab Cup อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3195,7 +3195,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/fifa-club-world-cup/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/fifa-club-world-cup/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก FIFA Club World Cup อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3218,7 +3218,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/friendlies-u-21/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/friendlies-u-21/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Friendlies U-21 อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3241,7 +3241,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/friendlies/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/friendlies/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Friendlies อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3264,7 +3264,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/gulf-cup/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/gulf-cup/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Gulf Cup อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3287,7 +3287,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/j-league-2/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/j-league-2/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก J. League 2 อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3310,7 +3310,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/j-league-3/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/j-league-3/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก J. League 3 อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3333,7 +3333,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/j-league-qualification/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/j-league-qualification/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก J. League Qualification อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3356,7 +3356,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/j-league/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/j-league/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก J. League อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3379,7 +3379,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/laliga/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/laliga/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก LaLiga อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3402,7 +3402,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/league-cup/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/league-cup/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก League Cup อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3425,7 +3425,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/leagues-cup/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/leagues-cup/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Leagues Cup อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3448,7 +3448,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/ligue-1/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/ligue-1/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Ligue 1 อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3471,7 +3471,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/national-division-qualification/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/national-division-qualification/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก National Division Qualification อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3494,7 +3494,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/national-division/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/national-division/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก National Division อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3517,7 +3517,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/premier-league/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/premier-league/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Premier League อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3540,7 +3540,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/recopa-sudamericana/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/recopa-sudamericana/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Recopa Sudamericana อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3563,7 +3563,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/saff-championship/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/saff-championship/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก SAFF Championship อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3586,7 +3586,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/serie-a/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/serie-a/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Serie A อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3609,7 +3609,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/shebelieves-cup-w/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/shebelieves-cup-w/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก SheBelieves Cup (W) อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3632,7 +3632,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/sidemen-charity-match/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/sidemen-charity-match/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Sidemen Charity Match อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3655,7 +3655,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/southeast-asian-games/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/southeast-asian-games/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Southeast Asian Games อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3678,7 +3678,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/summer-olympics-women/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/summer-olympics-women/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Summer Olympics (Women) อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3701,7 +3701,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/summer-olympics/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/summer-olympics/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Summer Olympics อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3724,7 +3724,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/super-cup/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/super-cup/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Super Cup อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3747,7 +3747,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/super-liga/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/super-liga/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Super Liga อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3770,7 +3770,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/superiore-qualification/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/superiore-qualification/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Superiore Qualification อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3793,7 +3793,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/superiore/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/superiore/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Superiore อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3816,7 +3816,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/the-atlantic-cup/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/the-atlantic-cup/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก The Atlantic Cup อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3839,7 +3839,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/toulon-tournament/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/toulon-tournament/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Toulon Tournament อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3862,7 +3862,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/uefa-nations-league-a/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/uefa-nations-league-a/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก UEFA Nations League A อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3885,7 +3885,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/uefa-nations-league-b/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/uefa-nations-league-b/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก UEFA Nations League B อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3908,7 +3908,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/uefa-nations-league-c/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/uefa-nations-league-c/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก UEFA Nations League C อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3931,7 +3931,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/uefa-nations-league-d/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/uefa-nations-league-d/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก UEFA Nations League D อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3954,7 +3954,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/uefa-super-cup/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/uefa-super-cup/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก UEFA Super Cup อัพเดทล่าสุด 12/03/2023
 </span>
@@ -3977,7 +3977,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/uefa-womens-euro/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/uefa-womens-euro/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก UEFA Women's EURO อัพเดทล่าสุด 12/03/2023
 </span>
@@ -4000,7 +4000,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/uefa-youth-league/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/uefa-youth-league/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก UEFA Youth League อัพเดทล่าสุด 12/03/2023
 </span>
@@ -4023,7 +4023,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/womens-champions-league/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/womens-champions-league/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Women's Champions League อัพเดทล่าสุด 12/03/2023
 </span>
@@ -4046,7 +4046,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/womens-friendlies/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/womens-friendlies/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Women's Friendlies อัพเดทล่าสุด 12/03/2023
 </span>
@@ -4069,7 +4069,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/womens-world-cup/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/womens-world-cup/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Women's World Cup อัพเดทล่าสุด 12/03/2023
 </span>
@@ -4092,7 +4092,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/womens-asian-cup/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/womens-asian-cup/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก Womens Asian Cup อัพเดทล่าสุด 12/03/2023
 </span>
@@ -4115,7 +4115,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup-qualification-w-concafaf/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup-qualification-w-concafaf/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก World Cup Qualification (W) CONCAFAF อัพเดทล่าสุด 12/03/2023
 </span>
@@ -4138,7 +4138,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup-qualification-w-inter-confederation/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup-qualification-w-inter-confederation/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก World Cup Qualification (W) Inter-Confederation อัพเดทล่าสุด 12/03/2023
 </span>
@@ -4161,7 +4161,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup-qualification-w-uefa/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup-qualification-w-uefa/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก World Cup Qualification (W) UEFA อัพเดทล่าสุด 12/03/2023
 </span>
@@ -4184,7 +4184,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup-qualification-afc/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup-qualification-afc/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก World Cup Qualification AFC อัพเดทล่าสุด 12/03/2023
 </span>
@@ -4207,7 +4207,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup-qualification-caf/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup-qualification-caf/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก World Cup Qualification CAF อัพเดทล่าสุด 12/03/2023
 </span>
@@ -4230,7 +4230,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup-qualification-concacaf/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup-qualification-concacaf/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก World Cup Qualification CONCACAF อัพเดทล่าสุด 12/03/2023
 </span>
@@ -4253,7 +4253,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup-qualification-inter-confederation/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup-qualification-inter-confederation/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก World Cup Qualification Inter-confederation อัพเดทล่าสุด 12/03/2023
 </span>
@@ -4276,7 +4276,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup-qualification-ofc/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup-qualification-ofc/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก World Cup Qualification OFC อัพเดทล่าสุด 12/03/2023
 </span>
@@ -4299,7 +4299,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup-qualification-uefa/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup-qualification-uefa/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก World Cup Qualification UEFA อัพเดทล่าสุด 12/03/2023
 </span>
@@ -4322,7 +4322,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup-u17/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup-u17/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก World Cup U17 อัพเดทล่าสุด 12/03/2023
 </span>
@@ -4345,7 +4345,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup-u20/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup-u20/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก World Cup U20 อัพเดทล่าสุด 12/03/2023
 </span>
@@ -4368,7 +4368,7 @@ January 12, 2020
 <article class="md:grid md:grid-cols-4 md:items-baseline">
 <div class="card group md:col-span-3">
 <h2 class=card-title>
-<a href=https://baanpolballs.co/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup/ class=card-link>
+<a href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/world-cup/ class=card-link>
 <span class=card-link-text>
 สรุปผลบอล ลีก World Cup อัพเดทล่าสุด 12/03/2023
 </span>
@@ -4400,16 +4400,16 @@ January 12, 2020
 <div class=inner-container>
 <div class="flex flex-col items-center justify-between gap-6 sm:flex-row">
 <div class="flex gap-6 text-sm font-medium text-slate-800 dark:text-slate-200">
-<a class="transition hover:text-pink-500 dark:hover:text-pink-400 font-['Kanit']" href=/>
+<a class="transition hover:text-pink-500 dark:hover:text-pink-400 font-['Kanit']" href=$CF_PAGES_URL/>
 🏠หน้าหลัก
 </a>
-<a class="transition hover:text-pink-500 dark:hover:text-pink-400 font-['Kanit']" href=/football-live/>
+<a class="transition hover:text-pink-500 dark:hover:text-pink-400 font-['Kanit']" href=$CF_PAGES_URL/football-live/>
 ⚽ดูบอลสด
 </a>
-<a class="transition hover:text-pink-500 dark:hover:text-pink-400 font-['Kanit']" href=/articles/>
+<a class="transition hover:text-pink-500 dark:hover:text-pink-400 font-['Kanit']" href=$CF_PAGES_URL/articles/>
 💯ทรรศนะบอล
 </a>
-<a class="transition hover:text-pink-500 dark:hover:text-pink-400 font-['Kanit']" href=/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/>
+<a class="transition hover:text-pink-500 dark:hover:text-pink-400 font-['Kanit']" href=$CF_PAGES_URL/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%A5%E0%B8%9A%E0%B8%AD%E0%B8%A5/>
 📣สรุปผลบอล
 </a>
 </div>

@@ -8,8 +8,8 @@
     "start:hugo": "hugo server",
     "start": "run-p start:*",
     "build:css": "npx tailwindcss -i ./assets/css/base.css -o ./assets/css/dist/base.css -m",
-    "build:hugo": "hugo --minify",
-    "build": "npx tailwindcss -i ./assets/css/base.css -o ./assets/css/dist/base.css -m && hugo --gc --minify"
+    "build:hugo": "hugo --minify -b $CF_PAGES_URL",
+    "build": "run-p build:*"
   },
 
   "devDependencies": {
