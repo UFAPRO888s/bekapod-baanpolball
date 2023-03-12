@@ -4,7 +4,7 @@ timeZone = 'Asia/Bangkok'
 title = 'บ้านผลบอล สรุปผลบอล ผลบอลสด ทีเด็ดบอล ก่อนแข่งทุกวัน'
 LanguageCode='th'
 enableRobotsTXT = true
-
+disableKinds = ["taxonomy", "taxonomyTerm"]
 sectionPagesMenu = 'main'
 googleAnalytics=''
 [markup]
