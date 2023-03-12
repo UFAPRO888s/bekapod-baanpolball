@@ -1,5 +1,5 @@
 baseURL = 'https://baanpolballs.co/'
-languageCode = 'th-th'
+languageCode = "en-us"
 timeZone = 'Asia/Bangkok'
 title = 'บ้านผลบอล สรุปผลบอล ผลบอลสด ทีเด็ดบอล ก่อนแข่งทุกวัน'
 
