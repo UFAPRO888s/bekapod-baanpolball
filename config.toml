@@ -4,24 +4,10 @@ timeZone = 'Asia/Bangkok'
 title = 'บ้านผลบอล สรุปผลบอล ผลบอลสด ทีเด็ดบอล ก่อนแข่งทุกวัน'
 LanguageCode='th'
 enableRobotsTXT = true
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ['taxonomy', 'term']
 sectionPagesMenu = 'main'
-googleAnalytics=''
-[markup]
-  defaultMarkdownHandler = "goldmark"
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = true
-    lineNos = false
-    noClasses = false
-    tabWidth = 4
-  [markup.tableOfContents]
-    startLevel = 2
-    endLevel = 4
-    ordered = true
+[markup.highlight]
+  noClasses = false
 
 [Params]
   description = "บ้านผลบอล สรุปผลบอล baanpolballs ผลบอลสด ทีเด็ดบอล ทรรศนะบอล ทีเด็ดบอลวันนี้ ดูผลบอลเมื่อคืน ไฮไลท์ฟุตบอลเมื่อคืน ดูบอลสดไม่กระตุก เว็บดูบอลสดที่เร็วที่สุด 2023"
@@ -35,7 +21,7 @@ googleAnalytics=''
 [build]
   noJSConfigInAssets = false
   useResourceCacheWhen = 'fallback'
-  writeStats = false
+  writeStats = true
 
 [caches]
   [caches.getjson]
