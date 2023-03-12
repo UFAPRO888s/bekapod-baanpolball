@@ -16,9 +16,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 {{ if .IsHome }}
-  <meta name="description" content="{{ .Site.Params.description }}" />
+  <meta name="description" content="{{ .Site.Params.Description }}" />
 {{ else if .IsSection }}
-  <meta name="description" content="{{ .Params.summary }}" />
+  <meta name="description" content="{{ .Description }}" />
 {{ else }}
   <meta name="description" content="{{ .Params.summary }}" />
 {{ end }}
