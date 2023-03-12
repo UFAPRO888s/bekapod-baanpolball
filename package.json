@@ -8,7 +8,7 @@
     "start:hugo": "hugo server",
     "start": "run-p start:*",
     "build:css": "npx tailwindcss -i ./assets/css/base.css -o ./assets/css/dist/base.css -m",
-    "build:hugo": "hugo --minify",
+    "build:hugo": "hugo --gc --minify",
     "build": "run-s build:*"
   },
 
