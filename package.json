@@ -9,7 +9,7 @@
     "start": "run-p start:*",
     "build:css": "npx tailwindcss -i ./assets/css/base.css -o ./assets/css/dist/base.css -m",
     "build:hugo": "hugo --minify",
-    "build": "hugo --gc --minify"
+    "build": "npx tailwindcss -i ./assets/css/base.css -o ./assets/css/dist/base.css -m && hugo --gc --minify"
   },
 
   "devDependencies": {
